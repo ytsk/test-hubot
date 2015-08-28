@@ -1,0 +1,15 @@
+# Description:
+#   Hubot responds current time bijin-tokei URL
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   None
+#
+# Commands:
+#   hubot bijin now - Hubot responds bijin-tokei URL of 'all japan'
+#   美人なう - 'hubot bijin now'と同じ。
+#   hubot bijin now [local] - Hubot responds bijin-tokei URL of 'local'
+#   美人なう、[local] - 'hubot bijin now [local]'と同じ。
+#
