@@ -3,6 +3,7 @@
 # 
 # Commands:
 #   hubot hello - Reply with hello
+#   hubot emacs - Reply with 最高
 
 module.exports = (robot) ->
   robot.hear /HELLO$/i, (msg) ->
