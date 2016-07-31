@@ -10,8 +10,8 @@ module.exports = (robot) ->
     msg.send "world"
 
   robot.hear /EMACS$/i, (msg) ->
-    msg.send "最高"x
+    msg.send "最高"
 
-  robot.adapter.client?.on? 'raw_message', (msg) ->
+  robot.adapter.client.on 'raw_message', (msg) ->
     if msg?.type == 'channel_created'
-      robot.messageRoom "#bot-test", "New channel: <##{msg.channel.id}|#{msg.channel.name}>"
+      robot.messageRoom "#general", "New channel: <##{msg.channel.id}|#{msg.channel.name}>"
